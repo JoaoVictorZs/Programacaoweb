@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <title>Atividade #3</title>
+</head>
+<body>
+    <h1>Formulario de Inscrição</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+        <br>
+        <label for="endereço">Endereço:</label>
+        <input type="text" id="endereço">
+        <br>
+        <label for="estado">Estado:</label>
+         <select name="Estados" id="">
+            <option value="amapá">Amapá</option>
+            <option value="amazonas">Amazonas</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="acre">Acre</option>
+            <option value="bahia">Bahia</option>
+            <option value="ceará">Ceará</option>
+            <option value="distrito federal">Distrito Federal</option>
+            <option value="espirito santo">Espírito Santo</option>
+            <option value="goias">Goiás</option>
+            <option value="maranhão">Maranhão</option>
+            <option value="mato grosso">Mato Grosso</option>
+            <option value="mato grosso do sul">Mato Grosso Do Sul</option>
+            <option value="minas gerais">Minas Gerais</option>
+            <option value="pará">Pará</option>
+            <option value="paraíba">Paraíba</option>
+            <option value="parana">Paraná</option>
+            <option value="pernanambuco">Pernambuco</option>
+            <option value="píaui">Píaui</option>
+            <option value="rio de janeiro">Rio de Janeiro</option>
+            <option value="rio grande do sul">Rio Grande do Sul</option>
+            <option value="rondônia">Rondônia</option>
+            <option value="roraima">Roraima</option>
+            <option value="santa catarina">Santa Catarina</option>
+            <option value="são paulo">São Paulo</option>
+            <option value="sergipe">Sergipe</option>
+            <option value="tocantins">Tocantins</option>
+         </select>
+    </fieldset>
+    <fieldset>
+        <legend>Preencha os dados abaixo</legend>
+        <label for="formulario">Qual É O Seu Nivel De Programação:</label>
+        <input type="radio" id="Nenhum">
+        <label nenhum>Nenhum</label>
+        <input type="radio" id="baixo">
+        <label baixo>Baixo</label>
+        <input type="radio" id="intermediario">
+        <label intermediario>Intermediario</label>
+        <input type="radio" id="avançado">
+        <label avançado>Avançado</label>
+        <br>
+        <br>
+        <legend>Selecione as linguagens que você mais se interessa em aprender </legend>
+        <br>
+        <input type="checkbox" id="cc">
+        <label for="cc">C/C</label>
+        <input type="checkbox" id="php">
+        <label for="php">PHP</label>
+        <input type="checkbox" id="java">
+        <label for="java">JAVA</label>
+        <input type="checkbox" id="phyton">
+        <label for="phyton">PHYTON</label>
+        <input type="checkbox" id="swift">
+        <label for="swift">SWIFT</label>
+        <input type="checkbox" id="C#">
+        <label for="C#">C#</label>
+    </fieldset>
+    </form>
+</body>
+</html>
